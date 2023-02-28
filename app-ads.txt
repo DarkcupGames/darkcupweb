@@ -138,6 +138,8 @@ yandex.com, 40427798, RESELLER
 
 #AppLovin#
 
+applovin.com, a21b4e6023bc76772155dce9cc97c740, DIRECT
+
 applovin.com, af8fa41420facac6b5e75cfc9153cd86, DIRECT
 adcolony.com, 5d8cbf6671c93a42, RESELLER, 1ad675c9de6b5176
 rubiconproject.com, 16356, RESELLER, 0bfd66d529a55807
