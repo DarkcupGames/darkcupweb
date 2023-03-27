@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 2767254755
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 98d1ee899f5dc587601fcafda6dddf7b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 669358c4d11a0d41fe08fbd41dc94c1e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9acd7c6b904600c4ca83b9d505e0c55b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: BeatData
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+Assets:
+- Assets/Prefabs/Song/Nightmare/Nightmare_03_Rock_BPM140.prefab
+- Assets/Prefabs/Song/Nightmare/Nightmare_07_Rock_BPM161.prefab
+- Assets/Prefabs/Song/Nightmare/Nightmare_05_Rock_BPM151.prefab
+- Assets/Prefabs/Song/Nightmare/Nightmare_10_Drum'n'Bass_BPM165.prefab
+- Assets/Prefabs/Song/Nightmare/Nightmare_06_ElectroPop_BPM155.prefab
+- Assets/Prefabs/Song/Nightmare/Nightmare_09_Drum'n'Bass_BPM165.prefab
+- Assets/Prefabs/Song/Nightmare/Nightmare_08_Drum'n'Bass_BPM164.prefab
+- Assets/Prefabs/Song/Nightmare/Nightmare_02_FutureHouse_BPM134.prefab
+- Assets/Prefabs/Song/Nightmare/Nightmare_04_Rock_BPM143.prefab
+- Assets/Prefabs/Song/Nightmare/Nightmare_01_FutureHouse_BPM133.prefab
+Dependencies: []
