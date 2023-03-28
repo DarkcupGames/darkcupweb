@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 700323079
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 424d1112b272d3e83c76f405f92057b8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 669358c4d11a0d41fe08fbd41dc94c1e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9acd7c6b904600c4ca83b9d505e0c55b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: BeatData
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+Assets:
+- Assets/Prefabs/Song/Hard/Hard_01_Suspense_BPM106.prefab
+Dependencies: []
