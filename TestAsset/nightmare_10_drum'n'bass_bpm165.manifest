@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3205822736
+CRC: 2287389097
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 07ef97d5ac18a225b34aba03d6960019
+    Hash: a632d066aa9b1aec6d46804965e93b04
   TypeTreeHash:
     serializedVersion: 2
     Hash: 669358c4d11a0d41fe08fbd41dc94c1e
@@ -29,5 +29,5 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.UnityEvent
 Assets:
-- Assets/Prefabs/Song/Nightmare/Nightmare_10_Drum'n'Bass_BPM165.prefab
+- Assets/Prefabs/Song/Nightmare/Nightmare_10_DrumnBass_BPM165.prefab
 Dependencies: []
