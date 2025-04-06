@@ -56,6 +56,7 @@
         text-align: center;
         padding: 100px 20px;
         background: url("background.jpg") no-repeat center center/cover;
+        position: relative;
       }
       .hero-section h1 {
         font-size: 48px;
@@ -98,6 +99,70 @@
       .grid-item img {
         max-width: 100%;
         border-radius: 5px;
+      }
+
+      /* Video Play Button Styles */
+      .video-play-button {
+        position: relative;
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-top: 30px;
+      }
+
+      .video-play-button:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+      }
+
+      .video-play-button::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        transform: translate(-40%, -50%);
+        border-radius: 50%;
+        border: 2px solid rgba(255, 255, 255, 0.562);
+        animation: pulse 2s infinite;
+        box-sizing: border-box;
+      }
+
+      .video-play-button::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-40%, -50%);
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 25px solid white;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(1.5);
+          opacity: 0;
+        }
+      }
+
+      .video-text {
+        display: block;
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
       }
 
       /* Footer styles - smaller and lighter */
@@ -379,8 +444,133 @@
           We provide game outsourcing services, as well as game development from
           scratch
         </p>
+        <!-- Video Play Button -->
+        <!-- <div
+          class="video-play-button"
+          id="videoPlayButton"
+          onclick="playVideoFunction()"
+        ></div>
+        <span class="video-text">Watch Our Showreel</span> -->
         <!-- <a href="#" class="btn">Check Our Works</a> -->
       </section>
+
+      <section>
+        <h2 style="text-align: center">Our Store</h2>
+        <a
+          href="https://play.google.com/store/apps/dev?id=8823513400648503767&hl=en"
+          ><h2 style="text-align: center">Google Play Store</h2></a
+        >
+      </section>
+      <section>
+        <h2 style="text-align: center">Our Showreel</h2>
+
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+            justify-items: center;
+            padding: 40px;
+          "
+        >
+          <div
+            style="
+              width: 500px;
+              aspect-ratio: 3 / 2;
+              position: relative;
+              margin: 10px;
+            "
+          >
+            <iframe
+              src="https://www.youtube.com/embed/uvjB_x33PP8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="
+                width: 100%;
+                height: 100%;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                margin: 20px;
+              "
+            ></iframe>
+          </div>
+
+          <div
+            style="
+              width: 500px;
+              aspect-ratio: 3 / 2;
+              position: relative;
+              margin: 10px;
+            "
+          >
+            <iframe
+              src="https://www.youtube.com/embed/p-vBFpZXD9o"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="
+                width: 100%;
+                height: 100%;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                margin: 20px;
+              "
+            ></iframe>
+          </div>
+
+          <div
+            style="
+              width: 500px;
+              aspect-ratio: 3 / 2;
+              position: relative;
+              margin: 10px;
+            "
+          >
+            <iframe
+              src="https://www.youtube.com/embed/FbyZMwe_bIg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="
+                width: 100%;
+                height: 100%;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                margin: 20px;
+              "
+            ></iframe>
+          </div>
+
+          <div
+            style="
+              width: 500px;
+              aspect-ratio: 3 / 2;
+              position: relative;
+              margin: 10px;
+            "
+          >
+            <iframe
+              src="https://www.youtube.com/embed/0WdbXEersII"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="
+                width: 100%;
+                height: 100%;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                margin: 20px;
+              "
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
       <section class="showcase">
         <h2>Our Projects</h2>
         <img src="images/new/big bg.webp" alt="Our Projects" />
@@ -490,14 +680,14 @@
             <div class="platform-icon">Up</div>
             <span>Find us on Upwork</span>
           </a>
-          <!-- <a
-            href="https://www.fiverr.com/your-profile"
+          <a
+            href="https://www.fiverr.com/s/NNDPN3R"
             class="platform-link"
             target="_blank"
           >
             <div class="platform-icon">Fi</div>
             <span>Find us on Fiverr</span>
-          </a> -->
+          </a>
           <a
             href="https://t.me/duchuy413"
             class="platform-link"
@@ -517,6 +707,10 @@
         const contactPopup = document.getElementById("contactPopup");
         const closePopup = document.getElementById("closePopup");
         const contactForm = document.getElementById("contactForm");
+        const videoPlayButton = document.getElementById("videoPlayButton");
+
+        //open inmediately after load
+        contactPopup.classList.toggle("show-popup");
 
         // Open popup when contact button is clicked
         contactBtn.addEventListener("click", function () {
@@ -550,7 +744,23 @@
             contactPopup.classList.remove("show-popup");
           }
         });
+
+        // Video Play Button functionality
+        videoPlayButton.addEventListener("click", function () {
+          console.log("play video");
+          // window.open(
+          //   "https://www.youtube.com/watch?v=uvjB_x33PP8&ab_channel=DarkcupGames",
+          //   "_blank"
+          // );
+        });
       });
+
+      const playVideoFunction = function () {
+        window.open(
+          "https://www.youtube.com/watch?v=uvjB_x33PP8&ab_channel=DarkcupGames",
+          "_blank"
+        );
+      };
     </script>
   </body>
 </html>
