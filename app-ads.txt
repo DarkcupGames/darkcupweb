@@ -114,6 +114,9 @@ pangleglobal.com, Account ID, DIRECT
 
 pubmatic.com, 161490, RESELLER, 5d62403b186f2ace
 
+#Meta#
+facebook.com, Property ID, RESELLER, c3e20eee3f780d68
+
 #Unity Ads#
 
 meitu.com, 282, RESELLER
