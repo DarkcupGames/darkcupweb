@@ -108,6 +108,12 @@ telaria.com, rwd19-2946573, RESELLER, 1a4e959a1b50034a
 
 tremorhub.com, rwd19-2946573, RESELLER, 1a4e959a1b50034a
 
+#Pangle#
+
+pangleglobal.com, Account ID, DIRECT
+
+pubmatic.com, 161490, RESELLER, 5d62403b186f2ace
+
 #Unity Ads#
 
 meitu.com, 282, RESELLER
